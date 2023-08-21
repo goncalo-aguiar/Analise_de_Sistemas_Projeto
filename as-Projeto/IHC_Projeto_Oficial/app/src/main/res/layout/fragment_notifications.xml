@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment"
+    android:background="@color/purple_200">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fl4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="200dp"
+            android:background="@color/white"
+            android:text="         Ainda não fez o seu primeiro pedido!\n
+                Faça-o na HomePage!"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp"
+            ></TextView>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:focusable="false" >
+
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="600dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="-0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="00dp"
+            android:layout_marginBottom="00dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/background">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imagem2"
+            android:layout_width="195dp"
+            android:layout_height="123dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="00dp"
+            android:layout_marginBottom="600dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/exclamation"></ImageView>
+
+
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".ui.home.HomeFragment">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/deonde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:hint="Zona de recolha?"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColorHint="@color/black"></EditText>
+
+        <EditText
+            android:id="@+id/quando1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="160dp"
+            android:hint="Hora de recolha?"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColorHint="@color/black"></EditText>
+
+        <EditText
+            android:id="@+id/paraonde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:hint="Zona de entrega?"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColorHint="@color/black"></EditText>
+
+        <EditText
+            android:id="@+id/quando2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="230dp"
+            android:hint="Hora de entrega?"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColorHint="@color/black"></EditText>
+
+        <EditText
+            android:id="@+id/nrmalas"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:hint="Número de malas?"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"></EditText>
+
+        <EditText
+            android:id="@+id/peso"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:hint="Peso?"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"></EditText>
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="235dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginEnd="00dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:hint="Procurar"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"></Button>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:focusable="false" >
+
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="620dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="-200dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="00dp"
+            android:layout_marginBottom="-20dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/background" />
+
+
+</FrameLayout>
+
+
+</RelativeLayout>

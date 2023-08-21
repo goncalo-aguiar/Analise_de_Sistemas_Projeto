@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".ConfirmCancel">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hora"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="205dp"
+            android:padding="20dp"
+            android:text="olaaffffaa"
+            android:textColorHint="@color/purple_200"
+            android:textSize="16sp"></TextView>
+
+
+        <TextView
+            android:id="@+id/serviços"
+            android:layout_width="700dp"
+            android:layout_height="157dp"
+            android:layout_marginTop="190dp"
+            android:background="@color/yellow"
+            android:hint="Tem a certeza que deseja cancelar o\n pedido de recolha?"
+            android:padding="20dp"
+            android:textColorHint="@color/black"
+            android:textSize="21sp"></TextView>
+
+
+        <Button
+            android:id="@+id/sim"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="00dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:hint="Sim"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"></Button>
+
+
+        <Button
+            android:id="@+id/nao"
+            android:layout_width="126dp"
+            android:layout_marginStart="12dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+
+            android:backgroundTint="@color/cardview_dark_background"
+            android:hint="Não"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"></Button>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:focusable="false" >
+
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="600dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="-100dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="00dp"
+            android:layout_marginBottom="00dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/background">
+        </ImageView>
+
+
+    </FrameLayout>
+
+</RelativeLayout>

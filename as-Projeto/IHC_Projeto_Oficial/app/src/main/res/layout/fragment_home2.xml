@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".HomeFragment2">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hora"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="205dp"
+            android:layout_marginStart="130dp"
+            android:textSize="16sp"
+            android:text="olaaffffaa"
+            android:padding="20dp"
+            android:textColorHint="@color/purple_200"></TextView>
+
+        <TextView
+            android:id="@+id/introducao"
+            android:layout_width="250dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="140dp"
+            android:hint="O que temos para si:"
+            android:textSize="16sp"
+            android:padding="20dp"
+            android:textColorHint="@color/white"></TextView>
+
+
+
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/serviços"
+            android:layout_width="700dp"
+            android:layout_height="157dp"
+            android:layout_marginTop="190dp"
+            android:background="@android:color/white"
+            android:hint="Hora Prevista: 21.15h\nPreço:30€\nEmpresa de Transporte:DHL\nEstafeta:Maria Neves\n"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColorHint="@color/purple_200"></TextView>
+
+
+
+
+        <Button
+            android:id="@+id/selecionar"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="00dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:hint="Selecionar"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"></Button>
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="445dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="00dp"
+            android:layout_marginBottom="-343dp"
+            app:defaultNavHost="true"
+            app:menu="@menu/bottom_nav_menu" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:hint="Go Back"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"></Button>
+
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:focusable="false" >
+
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="600dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="-100dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="00dp"
+            android:layout_marginBottom="00dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/background">
+        </ImageView>
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

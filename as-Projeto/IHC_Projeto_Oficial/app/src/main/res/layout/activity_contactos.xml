@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".Contactos">
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:src="@drawable/lol1" />
+
+    <ImageView
+        android:id="@+id/imagem3"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:src="@drawable/contactus" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:hint="Go Back"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"></Button>
+
+
+
+
+    <TextView
+        android:id="@+id/paraonde"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="350dp"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:hint="Fale connosco!\nContactos:
+255 255 255 (24/24h)\nEmail: lugwheels@lugs.com"
+        android:padding="30dp"
+        android:textColorHint="@color/black"></TextView>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:focusable="false">
+
+
+        <ImageView
+            android:id="@+id/imagem2"
+            android:layout_width="620dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="-200dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="00dp"
+            android:layout_marginBottom="-20dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/background" />
+
+
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".Avaliar">
+
+
+    <Button
+        android:layout_marginTop="600dp"
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:hint="Go Back"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"></Button>
+
+    <Button
+        android:layout_marginTop="600dp"
+        android:id="@+id/avaliar1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:hint="Avaliar"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"></Button>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <EditText
+            android:id="@+id/avaliar"
+            android:layout_width="700dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="250dp"
+            android:background="@android:color/white"
+            android:hint="Avaliação geral(0-5):"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColorHint="@color/purple_200"></EditText>
+
+        <EditText
+            android:id="@+id/comentario"
+            android:layout_width="700dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="330dp"
+            android:background="#D3D3D3"
+            android:hint="Insira um comentário(opcional)"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColorHint="@color/white"></EditText>
+
+        <TextView
+            android:id="@+id/introducao"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="150dp"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:hint="Ajude-nos a ajudar!\nAvalie estafeta:Maria Neves"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColorHint="@color/white"></TextView>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:focusable="false" >
+
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="600dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="-100dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="00dp"
+            android:layout_marginBottom="00dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/background">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imagem2"
+            android:layout_width="415dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="00dp"
+            android:layout_marginTop="442dp"
+            android:layout_marginEnd="00dp"
+            android:layout_marginBottom="00dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/avaliar">
+        </ImageView>
+
+
+    </FrameLayout>
+
+</RelativeLayout>

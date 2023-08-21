@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Contactar">
+
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="160dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="72dp"
+        android:gravity="center"
+        android:src="@drawable/people"
+
+        app:layout_constraintEnd_toEndOf="@+id/calling"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/calling"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="163dp"
+        android:hint="                            A chamar estafeta"
+        android:padding="30dp"
+        android:textColorHint="@color/white"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:textSize="@dimen/activity_horizontal_margin"
+        app:layout_constraintBottom_toBottomOf="@+id/imagem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></TextView>
+
+    <ImageButton
+        android:id="@+id/call2"
+        android:layout_width="134dp"
+        android:layout_height="112dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:src="@drawable/hangup4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
